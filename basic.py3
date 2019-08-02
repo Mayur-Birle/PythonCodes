@@ -78,5 +78,13 @@ def armStrong(x):
 
 # Argument <- Number || Output -> True if number is strong else False
 def strong(x):
+	ans = 0
+	temp = x
+	while(temp > 0):
+		ans += fact(temp%10)
+		temp = temp//10
+	if ans == x:
+		return True
+	return False
 
 print('Thanks for visiting here :) ');
