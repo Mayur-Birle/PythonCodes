@@ -1,3 +1,5 @@
+""" DJS Tutorial : https://www.hackerearth.com/practice/data-structures/disjoint-data-strutures/basics-of-disjoint-data-structures/tutorial/ """
+
 class DJS:
     def __init__(self, size):
         self.Arr = [i for i in range(size)]
