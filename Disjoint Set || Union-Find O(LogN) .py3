@@ -19,7 +19,7 @@ class DJS:
         root_x = self.getRoot(x)
         root_y = self.getRoot(y)
         if root_x == root_y:
-            self.Arr[root_x] = self.Arr[root_y]
+            return
         elif self.Weight[root_x] < self.Weight[root_y] :
             self.Arr[ root_x ] = self.Arr[ root_y ]
             self.Weight[ root_y ] += self.Weight[ root_x ]
