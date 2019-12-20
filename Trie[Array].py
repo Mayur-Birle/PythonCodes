@@ -51,7 +51,7 @@ def search_prefix(string):
     return ans;
     
 if __name__ == "__main__":
-    S = 'Trie is an efficient information reTrieval data structure Using Trie, search complexities can be brought to optimal limit If we store keys in binary search tree a well balanced BST will need time proportional to'
+    S = 'Trie is an efficient information reTrieval data structure Using Trie search complexities can be brought to optimal limit If we store keys in binary search tree a well balanced BST will need time proportional to'
     S = S.lower().split()
     for i in S:
         insert(i,10)
